@@ -1,7 +1,7 @@
 ---
 title: ARTS002
 date: 2020-06-07 00:44:18
-tags:
+tags: ARTS
 ---
 
 # A.R.T.S 002
