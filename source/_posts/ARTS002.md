@@ -64,4 +64,4 @@ Profiler 也很难用，不容易直接看到耗时方法
 
 # Share
 
-[RTFSC: ResponseBody](https://blog.alwaystest.ml/2020/06/05/RTFSC-ResponseBody/)
+[RTFSC: ResponseBody](/2020/06/05/RTFSC-ResponseBody/)

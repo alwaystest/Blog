@@ -44,4 +44,4 @@ tags: ARTS
 
 # Share
 
-[Why functional programming](https://blog.alwaystest.ml/2020/05/30/why-functional-programming/)
+[Why functional programming](/2020/05/30/why-functional-programming/)
