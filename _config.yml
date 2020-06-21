@@ -112,7 +112,7 @@ jsonContent:
     content: false
     slug: false
     updated: false
-    comments: true
+    comments: false
     link: false
     permalink: true
     excerpt: false
