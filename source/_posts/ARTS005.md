@@ -12,7 +12,8 @@ TODO:
 
 # Review
 
-TODO:
+[Time to upgrade your monitor](https://tonsky.me/blog/monitors/?nsukey=QLUi2Zk9GuSXx5M26%2FfeaQlEU1J3zCdWTm8INzA%2BA%2BlNiyUeFePHAaBJqg%2BeDjxeEa3BX3A3IPBrw%2B8dz2QJcm4tLQ04y%2FcdgexnmP9YwMbqALrImTZ221VlzUOAvtV1JgPLmz400RhjXxkAcc91VEDlW74jK%2FQfDsjhxh6KiWdbHTHbgzZpg0kS5c6f8kbLYd2zv4WqksKFmZkoNjh7XQ%3D%3D)
+少数派上看到了翻译的文章，刚好有点好奇为什么 Mac 在 2K 的显示器上展示的效果不尽如人意，看完了原文，关闭了 Mac 的 Font Smooth，嗯，世界又美好了。
 
 # Tips
 
