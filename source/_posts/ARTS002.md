@@ -5,6 +5,7 @@ tags: ARTS
 ---
 
 # A.R.T.S 002
+<!--more-->
 
 # Algorithm
 

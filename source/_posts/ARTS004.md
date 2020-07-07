@@ -4,6 +4,7 @@ date: 2020-06-21 22:53:57
 tags: ARTS
 ---
 # A.R.T.S 004
+<!--more-->
 
 # Algorithm
 [Minimum Flips to Make a OR b Equal to c - LeetCode](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)

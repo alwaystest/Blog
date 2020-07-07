@@ -7,6 +7,7 @@ tags:
 ## Why Hexo?
 
 Github Issue 简单，但是没什么可玩性。
+<!--more-->
 
 有一天看到 [这个主题](https://github.com/fi3ework/hexo-theme-archer) 的一个 Blog，发现字数统计和阅读时间挺好玩，观感上也不错。
 

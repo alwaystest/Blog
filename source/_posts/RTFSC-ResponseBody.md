@@ -7,6 +7,7 @@ tags: Programming
 # RTFSC: ResponseBody
 
 上回说到 `ResponseBody` 持有的是数据流，而不是数据。
+<!--more-->
 
 由此想到了另一个问题，当网络请求出错时，我们会在 UI 线程中调用 `Response.errorBody.string()`，这样的话，如果从 TCP 连接中读取信息，岂不是会阻塞 UI 线程？
 

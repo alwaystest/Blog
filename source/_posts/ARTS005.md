@@ -4,6 +4,7 @@ date: 2020-07-06 01:06:44
 tags: ARTS
 ---
 # A.R.T.S 005
+<!--more-->
 
 # Algorithm
 

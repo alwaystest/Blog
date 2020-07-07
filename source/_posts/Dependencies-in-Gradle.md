@@ -6,6 +6,7 @@ tags: Programming
 # Dependencies in Gradle
 
 使用 Gradle  构建的时候，项目依赖的 Lib 产生了版本冲突，记录一下 Debug 用到的命令。
+<!--more-->
 
 1. 在执行 Task 的时候，增加 `--scan` 参数。就可以从 Gradle 的 BuildScan 网站看到本次构建的依赖情况。
 
