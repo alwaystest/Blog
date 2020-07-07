@@ -8,8 +8,10 @@ tags: ARTS
 
 # Algorithm
 
-TODO:
-> lannister always pays his debts
+[1033. Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)
+Easy
+先写单元测试，后实现代码。单元测试用例写错了，没有一次通过，细节是魔鬼。
+我看大家都热衷刷 Runtime 和 Memory，实在是有些好奇，追寻究极的优化固然重要。但是同一份代码，多点几次提交，Runtime 的差距居然接近 30%，这玩意意义不大的样子。
 
 # Review
 
