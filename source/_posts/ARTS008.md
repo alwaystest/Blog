@@ -8,7 +8,12 @@ tags: ARTS
 
 # Algorithm
 
-TODO
+[Validate Binary Tree Nodes - LeetCode](https://leetcode.com/problems/validate-binary-tree-nodes/)
+
+Medium，不写单元测试还真是不行，有些浮躁，实现方法的时候犯了低级错误，幸亏没有偷懒写了单元测试。不过整个方法的测试用例懒得自己想了，直接抄了题目中给的例子。
+
+但还是忽略了一个环形的 Corner Case。
+
 
 # Review
 
