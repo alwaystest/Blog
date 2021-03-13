@@ -24,7 +24,7 @@ tags: ARTS
 
 [Implementation Design](https://www.jacoco.org/jacoco/trunk/doc/implementation.html)
 
-经常能看到 Android 里面的 Intrumentation Test，却搞不动 Instrument 是干嘛用的。了解了一下对应的介绍和功能。
+经常能看到 Android 里面的 Intrumentation Test，却搞不懂 Instrument 是干嘛用的。了解了一下对应的介绍和功能。
 
 [深入理解Instrument(一)](https://www.throwable.club/2019/06/29/java-understand-instrument-first/)
 
