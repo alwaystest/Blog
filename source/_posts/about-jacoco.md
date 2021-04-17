@@ -6,6 +6,9 @@ tags:
 - Programming
 ---
 
+来聊一聊 JaCoCo
+<!--more-->
+
 ![AboutJaCoCo](JacocoForBlog.001.jpeg)
 ![AboutJaCoCo](JacocoForBlog.002.jpeg)
 ![AboutJaCoCo](JacocoForBlog.003.jpeg)
