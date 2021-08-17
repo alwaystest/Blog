@@ -1,5 +1,5 @@
 ---
-title: SynchronizedNotThatEasy
+title: Synchronized 简单又没那么简单
 date: 2021-08-17 22:31:05
 tags: Programming
 ---
