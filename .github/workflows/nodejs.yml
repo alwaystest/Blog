@@ -24,7 +24,7 @@ jobs:
         cache-name: cache-hexo-db
       with:
         path: ./db.json
-        key: ${{ runner.os }}-hexodb-${{ hashFiles('./db.json') }}
+        key: ${{ runner.os }}-hexodb-${{ hashFiles('db.json', 'package-lock.json') }}
         restore-keys: |
           ${{ runner.os }}-hexodb-
 
