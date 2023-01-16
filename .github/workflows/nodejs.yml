@@ -24,9 +24,8 @@ jobs:
         cache-name: cache-hexo-db
       with:
         path: ./db.json
-        key: ${{ runner.os }}-hexodb-${{ env.cache-name }}
+        key: ${{ runner.os }}-hexodb-${{ hashFiles('./db.json') }}
         restore-keys: |
-          ${{ runner.os }}-hexodb-${{ env.cache-name }}
           ${{ runner.os }}-hexodb-
 
     - name: Use Node.js
