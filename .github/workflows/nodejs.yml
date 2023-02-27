@@ -6,8 +6,6 @@ name: Node.js CI
 on:
   push:
     branches: [ master ]
-  schedule:
-    - cron: '18 18 * * 1'
 
 jobs:
   build:
@@ -19,16 +17,10 @@ jobs:
       uses: actions/checkout@v3
       with:
         submodules: recursive
+        fetch-depth: 0
 
-    - name: Cache hexo db
-      uses: actions/cache@v3
-      env:
-        cache-name: cache-hexo-db
-      with:
-        path: ./db.json
-        key: ${{ runner.os }}-hexodb-${{ hashFiles('db.json', 'package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-hexodb-
+    - name: git-restore-mtime
+      uses: chetan/git-restore-mtime-action@v1.2
 
     - name: Use Node.js
       uses: actions/setup-node@v3
