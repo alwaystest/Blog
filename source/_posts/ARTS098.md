@@ -22,7 +22,33 @@ none
 
 # Tips
 
-none
+[Ash: /usr/libexec/sftp-server: not found when using scp](https://forum.openwrt.org/t/ash-usr-libexec-sftp-server-not-found-when-using-scp/125772/2)
+
+更新路由器，openwrt 使用的还是旧版本的，Mac 上已经安装了 OpenSSH 9.0+ 的版本，会导致 scp 命令尝试使用 SFTP 服务器，使用 -O 参数可以回落到老版本的策略。
+
+[OpenWRT 中 vlan 的使用 - Marquis](https://marquistj13.github.io/MyBlog/2019/04/vlan-intro/)
+
+[请教大家一个网络技术上的问题，openwrt-OPENWRT专版-恩山无线论坛 -  Powered by Discuz!](https://www.right.com.cn/forum/forum.php?mod=redirect&goto=findpost&ptid=7752772&pid=15891589)
+
+路由器刷机 OpenWRT 之后 IPv6 搞不定，初步怀疑是桥接的问题，顺便看了一下 VLAN 划分的意义，这里搞得有点难懂的。
+
+> 这是网络上关于VLAN的基础术语的中文翻译，客观点来说这翻译的很糊涂，会把人搞昏的。对应的英文是：
+> 
+> 
+> 关：off
+> 
+> 已标记：tagged
+> 
+> 未标记：untagged
+> 
+> 具体含义其实对应的是否打VLAN标签，“关（off）”很好理解，“已标记（tagged）”是带着VLAN标签通过这个端口，“未标记（untagged）”是数据包从端口出去的时候去掉标签，数据包进入端口的时候打上标签。
+> 
+> 如果不想了解这些技术细节，可以简单的这么理解：如果某个物理端口要属于某一个VLAN就选择“未标记（untagged）”，如果不属于某个VLAN就“关（off）”，如果要允许多个VLAN的数据通过就“标记（tagged）”
+> 
+
+最后发现 OpenWRT 似乎已经通过 ODhcpd 搞定了之前需要复杂配置的IPV6 /64 PD 的二级路由地址分配，最后一步就是配置一下防火墙就Ok了
+
+还有一点小问题，通过 curl 访问获取自己的IPv6地址，返回的依然是路由器的地址，而不是当前设备被分配的v6地址，群晖获取到的公网IP地址也是路由器的地址，只能通过局域网地址来上报 DDns，有待研究。
 
 # Share
 
