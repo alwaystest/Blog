@@ -21,6 +21,6 @@ click to see more!
 
 使用 ADB 隐式调起 App 的时候，URI 中有 `&` 会导致 APK 收到的 data 被截断，因为 ABD Shell 运行在 Shell 环境下， `&` 是关键字，后面的命令被 Shell 截掉了。
 
-可以通过单引号转义 data 中的 `&` 符号来解决问题。
+可以通过 `\` 转义 data 中的 `&` 符号来解决问题。
 
 # Share
