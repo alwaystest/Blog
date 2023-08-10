@@ -30,6 +30,8 @@ https://github.com/BurntSushi/ripgrep/issues/388
 
 但是实际上使用起来还是会有问题，命令的原理是用文件名去获取所在的目录，如果目录下全部都是目录，没有文件，那这种目录是没办法滤出来的。
 
+PS: 还是用 fd 吧，术业有专攻。
+
 # Share
 
 none
