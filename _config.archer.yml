@@ -50,9 +50,9 @@ main_title: Eric's Studio
 # subtitle
 subtitle: 保持好奇，日拱一卒。
 # site haeder image
-site_header_image:  'https://source.unsplash.com/weekly'
+site_header_image:  'https://picsum.photos/1200/800'
 # post haeder image
-post_header_image: 'https://source.unsplash.com/weekly'
+post_header_image: 'https://picsum.photos/1200/800'
 # 404 image
 _404_image: '/intro/404-bg.jpg'
 
